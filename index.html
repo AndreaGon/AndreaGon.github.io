@@ -1,0 +1,229 @@
+<DOCTYPE! html>
+<html>
+  <head>
+    <title>Andrea Gonzales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="dynamic.js"></script>
+  </head>
+  <body>
+    <div id = "home">
+      <div id = "navigation">
+        <ul>
+          <li>
+            <a class = "nav-scroll" href = "#home">
+              <span id = "home-dot" class="nav-dot">&nbsp;</span>
+              <span id = "home-title" class="nav-title">Home</span>
+            </a>
+          </li>
+          <li>
+            <a class = "nav-scroll" href = "#about-content">
+              <span class="nav-dot">&nbsp;</span>
+              <span class="nav-title">About</span>
+            </a>
+          </li>
+          <li>
+            <a class = "nav-scroll" href = "#blog">
+              <span class="nav-dot">&nbsp;</span>
+              <span class="nav-title">Blog</span>
+            </a>
+          </li>
+          <li>
+            <a class = "nav-scroll" href = "#projects">
+              <span class="nav-dot">&nbsp;</span>
+              <span class="nav-title">Projects</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <center>
+        <div id = "home-greet">
+          <h1>Hi, I'm Andrea</h1>
+          <ul id = "horizontal-list">
+            <li>Web Developer</li>
+            <li>Programmer</li>
+            <li>Web Designer</li>
+          </ul>
+          <div id = "social-media">
+            <a class = "social-icon" href="https://www.linkedin.com/in/andrea-gonzales-43a900198"><img src="images/linkedin-icon.svg" width="20" height="20" alt="Linkedin"/></a>
+            <a class = "social-icon" href="https://github.com/AndreaGon"><img src="images/github-icon.svg" width="20" height="20" alt="Github"/></a>
+            <a class = "social-icon" href="https://www.facebook.com/Andrea-Gonzales-139071337589037/"><img src="images/facebook-icon.svg" width="20" height="20" alt="Facebook"/></a>
+            <a class = "social-icon" href="https://www.instagram.com/__andreagon__/"><img src="images/instagram-round-line.svg" width="20" height="20" alt="Instagram"/></a>
+          </div>
+          <div id = "prof-pic">
+            <img id = "profile-pic" class="home-img" src="images/profile_pic.svg" alt="Andrea Gonzales"/>
+          </div>
+        </div>
+      </center>
+    </div>
+    <center>
+      <div id = "about-content" class = "about">
+        <div id = "about-text" class = "about-developer">
+          <h2>About Me</h2>
+          <p>I am a student developer (previously homeschooled for 7 years), currently focusing on frontend and backend development. I join programming competitions, hackathons and developer meetups, and I also have experience in mentoring both teens and adults. On my past time, I enjoy reading books, playing the piano, and listening to music.</p>
+        </div>
+        <div id = "about-img" class = "about-developer">
+          <img id = "deco-img" src="images/girl-code.svg" alt="girl coder"/>
+        </div>
+      </div>
+    </center>
+    <div id = "blog">
+      <center>
+        <div id = "blog-content">
+          <h2 style="text-align: center;">Notes & Codes: A Journey Through Music, Programming and Adolescence</h2>
+          <br/><br/>
+          <a style="text-align: center;" class = "buttons" target="_blank" href="https://notesandcodes.home.blog/">See My Blog</a>
+        </div>
+      </center>
+    </div>
+    <div id = "projects">
+      <center><h2>Projects & Achievements</h2></center>
+      <div id = "project-date">
+        <div id = "project-date-mobile">
+          <select id = "date-mobile" onchange = "changeProjectMobile();">
+            <option value = "2020">2020</option>
+            <option value = "2019">2019</option>
+            <option value = "2018">2018</option>
+            <option value = "2017">2017</option>
+            <option value = "2016">2016</option>
+            <option value = "2015">2015</option>
+          </select>
+        </div>
+        <ul>
+          <li><a id = "link-20" href="#projects">2020</a></li>
+          <li><a id = "link-19" href="#projects">2019</a></li>
+          <li><a id="link-18" href="#projects">2018</a></li>
+          <li><a id="link-17" href="#projects">2017</a></li>
+          <li><a id="link-16" href="#projects">2016</a></li>
+          <li><a id="link-15" href="#projects">2015</a></li>
+        </ul>
+      </div>
+      <div id = "project-list">
+        <div id = "proj-2020">
+          <div id = "list-2020-1" class = "list">
+            <img src="images/2020/gsteam.png"  />
+            <div class = "overlay">
+              <h3>Techacks Hackathon 2020 Winner</h3>
+              <p class = "proj-info">I joined Techacks Hackathon and along with my 3 team members, created a STEAM idea generator website. Our project was chosen as one of the winners.</p>
+              <a class = "visit-button" target="_blank" href = "https://devpost.com/software/generate-stream">Visit on Devpost</a>
+            </div>
+          </div>
+          <div id = "list-2020-2" class = "list">
+            <img src="images/2020/planets.png"  />
+            <div class = "overlay">
+              <h3>Planets Activity for Sugarizer</h3>
+              <p class = "proj-info">Planets Activity is another activity project for Sugarizer. It provides 3D models of the Solar System Planets for the students to appreciate it more.</p>
+              <a class = "visit-button" target="_blank" href = "https://github.com/AndreaGon/Planets-3D">See on Github</a>
+            </div>
+          </div>
+        </div>
+        <div id = "proj-2019">
+          <div id = "list-2019-1" class = "list">
+            <img src="images/2019/gci.png"  />
+            <div class = "overlay">
+              <h3>Google Code-in 2019 Grand Prize Winner</h3>
+              <p class = "proj-info">I was chosen as one of the Grand Prize Winners for Google Code-in 2019. The prize includes a 4 day trip to Google HQ in San Francisco, California.</p>
+              <a class = "visit-button" target="_blank" href = "https://opensource.googleblog.com/2020/02/announcing-our-google-code-in-2019.html">Visit Blog from Google</a>
+            </div>
+          </div>
+          <div id = "list-2019-2" class = "list">
+            <img src="images/2019/cdm-logo.svg"  />
+            <div class = "overlay">
+              <h3>Assistant Web Developer at CDM (2019 - present)</h3>
+              <p class = "proj-info">I am a volunteer assistant Web Developer at CDM. Some of my tasks include adding a calendar event that is sync with Google Calendar and improving Search Engine Optimization</p>
+              <a class = "visit-button" target="_blank" href = "https://cdm.my/cdm.my/">Visit CDM Website</a>
+            </div>
+          </div>
+          <div id = "list-2019-3" class = "list">
+            <img src="images/2019/const.png"/>
+            <div class = "overlay">
+              <h3>Constellation Activity for Sugarizer</h3>
+              <p class = "proj-info">This is one of my contributions for Sugarizer. I've integrated a starchart that allows students to view current constellations and stars</p>
+              <a class = "visit-button" target="_blank" href = "https://github.com/AndreaGon/Constellation-Activity">See on Github</a>
+            </div>
+          </div>
+          <div id = "list-2019-4" class = "list">
+            <img src="images/2019/techladies.svg"/>
+            <div class = "overlay">
+              <h3>Techladies Mentor</h3>
+              <p class = "proj-info">I was invited by Techladies in Penang, Malaysia to mentor one of their HTML/CSS workshop. I have created my own tutorial for a simple, parallax-scrolling website for the workshop.</p>
+              <a class = "visit-button" target="_blank" href = "https://github.com/AndreaGon/website_projects/tree/master/parallax_scrolling">See Tutorial on Github</a>
+            </div>
+          </div>
+        </div>
+        <div id = "proj-2018">
+          <div id = "list-2018-1" class = "list">
+            <img src="images/2018/sjw-title.svg"/>
+            <div class = "overlay">
+              <h3>Space Junk Wars</h3>
+              <p class = "proj-info">It is a game I made along with my team about combating space junks.</p>
+              <a class = "visit-button" target="_blank" href = "https://www.kongregate.com/games/1halfbh/space-junk-wars">Play Space Junk Wars</a>
+            </div>
+          </div>
+          <div id = "list-2018-2" class = "list">
+            <img src="images/2018/firstportfolio.jpg"/>
+            <div class = "overlay">
+              <h3>First Web Portfolio</h3>
+              <p class = "proj-info">This is my first web portfolio design.</p>
+              <a class = "visit-button" target="_blank" href = "images/2018/old-website/index.html">Visit Old Site</a>
+            </div>
+          </div>
+          <div id = "list-2018-3" class = "list">
+            <img src="images/2018/sugarizer.svg"/>
+            <div class = "overlay">
+              <h3>Contributions at Sugarizer</h3>
+              <p class = "proj-info">Aside from creating Sugarizer Activities, I also add enhancements and fix issues of existing activities.</p>
+              <a class = "visit-button" target="_blank" href = "https://github.com/llaske/sugarizer/graphs/contributors">Sugarizer Contributors</a>
+            </div>
+          </div>
+          <div id = "list-2018-4" class = "list">
+            <img src="images/2018/python.png"/>
+            <div class = "overlay">
+              <h3>PISF Python Programming Challenge</h3>
+              <p class = "proj-info">This is a programming competition hosted by Penang International Science Fair. I finished as Finalist.</p>
+              <a class = "visit-button" target="_blank" href = "https://www.pscpen.com/comp2018/">See Website</a>
+            </div>
+          </div>
+        </div>
+        <div id = "proj-2017">
+          <div id = "list-2017-1" class = "list">
+            <img src="images/2017/coursera.svg"/>
+            <div class = "overlay">
+              <h3>Coursera Mentor (2017-2020)</h3>
+              <p class = "proj-info">I was a volunteer mentor for the online course "Code Yourself! An Introduction to Programming" in Coursera.</p>
+              <a class = "visit-button" target="_blank" href = "images/2017/'Coursera Mentor.pdf">See my Certificate</a>
+            </div>
+          </div>
+        </div>
+        <div id = "proj-2016">
+          <div id = "list-2016-1" class = "list">
+            <img src="images/2016/girls-in-tech-logo.svg"/>
+            <div class = "overlay">
+              <h3>Global Classroom: Participant</h3>
+              <p class = "proj-info">I participated in Girls in Tech's Global Classroom that teaches about the basics of web development in Wordpress.</p>
+              <a class = "visit-button" target="_blank" href = "images/2016/girls-in-tech.pdf">See my Certificate</a>
+            </div>
+          </div>
+        </div>
+        <div id = "proj-2015">
+          <div id = "list-2015-1" class = "list">
+            <img src="images/2015/python.svg"/>
+            <div class = "overlay">
+              <h3>Programming for Everybody (Python): Participant</h3>
+              <p class = "proj-info">This was one of my first courses that I took. I joined Prof. Severance's Python course and finished with distinction.</p>
+              <a class = "visit-button" target="_blank" href = "images/2015/Coursera pythonlearn 2017.pdf">See my Certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id = "page-footer">
+      <p>Copyright &copy; Andrea Gonzales 2020</p>
+    </div>
+  </body>
+</html>

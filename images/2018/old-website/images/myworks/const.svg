@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: SketchAPI 5.1.316 <https://api.sketch.io/> -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketchjs="https://sketch.io/dtd/" style="" sketchjs:metadata="eyJ0aXRsZSI6IkRyYXdpbmciLCJkZXNjcmlwdGlvbiI6Ik1hZGUgd2l0aCBTa2V0Y2hwYWQgLSBodHRwczovL3NrZXRjaC5pby9za2V0Y2hwYWQiLCJtZXRhZGF0YSI6e30sImNsaXBQYXRoIjp7ImVuYWJsZWQiOnRydWUsInN0eWxlIjp7InN0cm9rZVN0eWxlIjoiYmxhY2siLCJsaW5lV2lkdGgiOjF9fSwiZXhwb3J0RFBJIjo3MiwiZXhwb3J0Rm9ybWF0IjoicG5nIiwiZXhwb3J0UXVhbGl0eSI6MC45NSwidW5pdHMiOiJweCIsIndpZHRoIjozNzksImhlaWdodCI6Mzg4LCJwYWdlcyI6eyJsZW5ndGgiOjEsImRhdGEiOlt7IndpZHRoIjozNzksImhlaWdodCI6Mzg4fV19fQ==" width="91" height="100" viewBox="0 0 379 388" sketchjs:version="5.1.316">
+<defs>
+	<linearGradient id="dna_979558842" gradientUnits="userSpaceOnUse" x1="0" x2="251" y1="139" y2="139">
+		<stop offset="0" style="stop-color:#f2f6f8;"/>
+		<stop offset="0.25" style="stop-color:#e5ebef;"/>
+		<stop offset="0.5" style="stop-color:#d8e1e7;"/>
+		<stop offset="0.5" style="stop-color:#c6d3db;"/>
+		<stop offset="0.5" style="stop-color:#b5c6d0;"/>
+		<stop offset="0.75" style="stop-color:#cadae4;"/>
+		<stop offset="1" style="stop-color:#e0eff9;"/>
+	</linearGradient>
+	<linearGradient id="dna_3562309318" gradientUnits="userSpaceOnUse" x1="0" x2="173.67786272291585" y1="102.12258328107451" y2="71.55527944184132">
+		<stop offset="0" style="stop-color:#a7cfdf;"/>
+		<stop offset="0.5" style="stop-color:#6591b4;"/>
+		<stop offset="1" style="stop-color:#23538a;"/>
+	</linearGradient>
+	<linearGradient id="dna_424330462" gradientUnits="userSpaceOnUse" x1="0" x2="153.1012736720371" y1="90.02354891915782" y2="63.077724752879284">
+		<stop offset="0" style="stop-color:#a7cfdf;"/>
+		<stop offset="0.5" style="stop-color:#6591b4;"/>
+		<stop offset="1" style="stop-color:#23538a;"/>
+	</linearGradient>
+	<linearGradient id="dna_3937129739" gradientUnits="userSpaceOnUse" x1="0" x2="110.07270324653611" y1="64.72274950896323" y2="45.349953737572875">
+		<stop offset="0" style="stop-color:#a7cfdf;"/>
+		<stop offset="0.5" style="stop-color:#6591b4;"/>
+		<stop offset="1" style="stop-color:#23538a;"/>
+	</linearGradient>
+</defs>
+<polyline sketchjs:tool="polyline" style="fill: none; stroke: url(#dna_979558842); mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 9.8;" points="0,0 231,106 2,258" transform="matrix(1,0,0,1,89,81)"/>
+<path sketchjs:tool="star" style="fill: url(#dna_3562309318); stroke: #ffffff; mix-blend-mode: source-over; paint-order: stroke fill markers; fill-opacity: 1; fill-rule: nonzero; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; vector-effect: non-scaling-stroke;" d="M86.84 0 L112.36 51.71 169.43 60 128.13 100.26 137.88 157.09 86.84 130.26 35.8 157.09 45.54 100.26 4.25 60 61.32 51.71 z" transform="matrix(-0.8176056393931194,-0.5757786192909289,0.5757786192909289,-0.8176056393931194,105,210)"/>
+<path sketchjs:tool="star" style="fill: url(#dna_424330462); stroke: #ffffff; mix-blend-mode: source-over; paint-order: stroke fill markers; fill-opacity: 1; fill-rule: nonzero; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; vector-effect: non-scaling-stroke;" d="M76.55 0 L99.05 45.59 149.35 52.9 112.95 88.38 121.55 138.48 76.55 114.83 31.56 138.48 40.15 88.38 3.75 52.9 54.05 45.59 z" transform="matrix(-0.03489949670249721,-0.9993908270190959,0.9993908270190959,-0.03489949670249721,238,259)"/>
+<path sketchjs:tool="star" style="fill: url(#dna_3937129739); stroke: #ffffff; mix-blend-mode: source-over; paint-order: stroke fill markers; fill-opacity: 1; fill-rule: nonzero; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; vector-effect: non-scaling-stroke;" d="M55.04 0 L71.21 32.77 107.38 38.03 81.21 63.54 87.39 99.56 55.04 82.55 22.69 99.56 28.87 63.54 2.69 38.03 38.86 32.77 z" transform="matrix(0.681998360062494,-0.7313537016191746,0.7313537016191746,0.681998360062494,8.214258965816782,334.7163379323994)"/>
+</svg>

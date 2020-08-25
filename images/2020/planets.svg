@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg1490"
+   version="1.1"
+   height="102"
+   width="192">
+  <metadata
+     id="metadata1496">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1494">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="100.7117"
+       x2="82.604805"
+       y1="40.044323"
+       x1="82.302574"
+       id="linearGradient2075"
+       xlink:href="#linearGradient2073"
+       gradientTransform="matrix(0.69844656,0,0,0.80595839,39.871746,11.710003)" />
+    <linearGradient
+       id="linearGradient2073">
+      <stop
+         id="stop2069"
+         offset="0"
+         style="stop-color:#1f2275;stop-opacity:1;" />
+      <stop
+         id="stop2071"
+         offset="1"
+         style="stop-color:#150e6d;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <g
+     transform="translate(0,19)"
+     id="g1472">
+    <title
+       id="title1466">background</title>
+    <rect
+       style="fill:none"
+       x="-1"
+       y="-1"
+       width="84"
+       height="85"
+       id="canvas_background" />
+    <g
+       style="display:none;overflow:visible"
+       id="canvasGrid"
+       width="100%"
+       height="100%"
+       x="0"
+       y="0"
+       overflow="visible"
+       display="none">
+      <rect
+         style="fill:url(#gridpattern);stroke-width:0"
+         id="rect1469"
+         width="100%"
+         height="100%"
+         x="0"
+         y="0" />
+    </g>
+  </g>
+  <g
+     id="layer1">
+    <path
+       style="fill:url(#linearGradient2075);fill-opacity:1;stroke:#000000;stroke-width:0.87015158px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="M 135.72789,14.513518 H 56.297749 c -4.774886,-0.520105 -4.508097,7.608115 -1.578151,8.226307 5.996806,1.265271 17.353122,0.562419 21.4514,1.096082 2.765426,1.304883 2.49382,5.562922 0.687701,6.334447 -4.653996,1.988065 -28.575145,-0.2605 -34.079348,1.038307 -3.518061,1.436395 -3.460132,8.43205 0.109838,9.638948 6.242841,2.110507 24.724686,-0.06045 30.016649,1.365753 2.54042,0.814155 2.761314,5.568433 -0.245687,5.786364 -6.852742,0.496656 -10.302693,-0.369886 -16.043259,0.223186 -3.158973,0.634088 -2.741684,7.86185 -0.261878,8.067273 6.220793,0.515305 7.644807,0.138109 16.473836,0.170895 4.056951,0.08216 3.098301,7.501587 0.139216,7.664536 -4.235948,0.233252 -9.26086,0.08181 -10.881418,0.987911 -2.924882,1.819064 -1.973969,7.609634 0.09913,7.781351 8.769394,0.726362 50.140962,-0.129727 67.137672,0.08962 5.47132,0.414972 6.52867,-7.679132 0.47233,-8.571634 -5.21398,-0.866808 -9.21384,-0.207228 -10.89128,-0.674087 -3.25136,-0.526267 -3.80938,-6.883127 -0.30081,-7.380959 5.73457,-0.894614 11.90291,0.532811 20.0943,-1.103881 3.71531,-0.742344 5.29051,-7.24455 -0.60781,-8.257543 -6.81921,-0.07745 -10.72168,-0.0073 -17.67871,-0.370226 -3.62983,-0.18949 -4.58602,-5.757865 -0.18215,-5.971959 7.7369,-0.344056 21.06549,-0.51039 30.59134,-1.17408 3.50042,-0.243883 4.06174,-9.080278 -0.97802,-8.977651 -8.45201,-0.909996 -25.22191,0.704655 -33.55532,-0.198298 -1.29625,-0.140453 -2.87296,-4.119292 -0.48614,-5.76584 4.04694,-1.354354 15.20493,0.311099 20.57834,-1.052476 3.01222,-0.764389 4.45351,-8.295553 -0.6516,-8.972355 z"
+       id="path2055" />
+  </g>
+  <g
+     id="layer2">
+    <g
+       transform="matrix(0.70938194,0,0,0.70938194,28.269083,12.602611)"
+       id="g2216">
+      <ellipse
+         style="fill:none;stroke:#ffffff;stroke-width:0.73956853;stroke-opacity:1"
+         cx="95.976547"
+         cy="42.71764"
+         id="svg_3"
+         rx="27.364037"
+         ry="27.594847" />
+      <ellipse
+         style="fill:none;stroke:#ffffff;stroke-width:0.73956853;stroke-opacity:1"
+         cx="95.82267"
+         cy="43.105968"
+         id="svg_4"
+         rx="14.432867"
+         ry="14.554607" />
+      <ellipse
+         style="fill:none;stroke:#ffffff;stroke-width:0.73956853;stroke-opacity:1"
+         cx="95.89106"
+         cy="43.089546"
+         id="svg_5"
+         rx="20.78162"
+         ry="20.956911" />
+      <ellipse
+         style="fill:#e6eb07;fill-opacity:1;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="95.89106"
+         cy="43.311165"
+         id="svg_6"
+         rx="9.3721018"
+         ry="9.4511538" />
+      <ellipse
+         style="fill:#41bebe;fill-opacity:1;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="112.40011"
+         cy="20.525553"
+         id="svg_7"
+         rx="4.3284335"
+         ry="4.364943" />
+      <ellipse
+         style="fill:#982323;fill-opacity:1;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="82.555252"
+         cy="37.041451"
+         id="svg_8"
+         rx="2.7042005"
+         ry="2.7270103" />
+      <ellipse
+         style="fill:#0000ba;fill-opacity:1;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="89.565102"
+         cy="62.504707"
+         id="svg_9"
+         rx="4.0719757"
+         ry="4.1063218" />
+      <ellipse
+         style="fill:#bfbf36;fill-opacity:1;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="89.340981"
+         cy="38.932762"
+         id="svg_30"
+         rx="0.95058447"
+         ry="0.95860213" />
+      <ellipse
+         style="fill:#c7c738;fill-opacity:1;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="101.84502"
+         cy="48.23455"
+         id="svg_31"
+         rx="0.95058447"
+         ry="0.95860213" />
+      <ellipse
+         style="fill:#008080;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="109.85065"
+         cy="20.559847"
+         id="svg_32"
+         rx="0.72185218"
+         ry="0.72794032" />
+      <ellipse
+         style="fill:#800000;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="83.088959"
+         cy="36.031624"
+         id="svg_33"
+         rx="0.49311915"
+         ry="0.49727848" />
+      <ellipse
+         style="fill:#000080;stroke:#000000;stroke-width:0.73956853;stroke-opacity:0"
+         cx="91.475815"
+         cy="61.196056"
+         id="svg_34"
+         rx="0.95058447"
+         ry="0.95860213" />
+      <circle
+         r="4.3961864"
+         cy="7.409596"
+         cx="18.961355"
+         id="path2153"
+         style="opacity:1;fill:#1f2275;fill-opacity:1;stroke:#000000;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <circle
+         r="4.0444913"
+         cy="68.780357"
+         cx="29.336355"
+         id="path2155"
+         style="opacity:1;fill:#1b1971;fill-opacity:0.59215686;stroke:#000000;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <circle
+         r="3.1652544"
+         cy="16.026121"
+         cx="166.49738"
+         id="path2157"
+         style="opacity:1;fill:#1f2275;fill-opacity:1;stroke:#000000;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <circle
+         r="2.8135591"
+         cy="65.439262"
+         cx="150.49524"
+         id="path2159"
+         style="opacity:1;fill:#1a1a72;fill-opacity:0.60392157;stroke:#000000;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+    </g>
+    <text
+       id="text2197"
+       y="90.602936"
+       x="68.501526"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.26100922px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1f2275;fill-opacity:1;stroke:none;stroke-width:0.45652282"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.26100922px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1f2275;fill-opacity:1;stroke-width:0.45652282"
+         y="90.602936"
+         x="68.501526"
+         id="tspan2195">Planets</tspan></text>
+  </g>
+  <g
+     id="layer3" />
+</svg>

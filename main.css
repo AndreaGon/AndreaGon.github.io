@@ -55,7 +55,7 @@ ul{
 #horizontal-list{
   float: right;
   margin-top: 200px;
-  margin-right: -480px;
+  margin-right: -510px;
 }
 #horizontal-list li{
   margin-right: 10px;
@@ -160,6 +160,31 @@ ul{
   display: block;
 }
 
+.arrow-down {
+  box-sizing: border-box;
+  height: 5vh;
+  width: 5vh;
+  border-style: solid;
+  border-color: #E80C71;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow-down:hover{
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.arrow-container{
+  display: none;
+  width: auto;
+  height: 50px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
 /**About section**/
 .about{
   display: inline-block;
@@ -233,6 +258,7 @@ ul{
   border-color: #6317A6;
   width: 150px;
 }
+
 #project-date-mobile{
    display:none;
 }
@@ -256,6 +282,10 @@ ul{
   color:  #E80C71;
 }
 
+#project-date .selected{
+  color:  #E80C71;
+}
+
 #project-list{
   display: flex;
   flex-direction: column;
@@ -271,9 +301,6 @@ ul{
   display: none;
 }
 #proj-2017 .list{
-  display: none;
-}
-#proj-2016 .list{
   display: none;
 }
 #proj-2015 .list{
@@ -337,7 +364,7 @@ img{
 
 .visit-button{
   border: none;
-  padding: 15px;
+  padding: 12px;
   background-color: #E80C71;
   color: #FFFFFF;
   text-decoration: none;
@@ -357,6 +384,13 @@ img{
   color: #FFFFFF;
 }
 
+@media only screen and (min-width: 1725px){
+   #prof-pic{
+    top: 0;
+    right: 0;
+  }
+}
+
 /**For Responsive Design**/
 @media only screen and (max-width: 1360px){
   #prof-pic{
@@ -364,6 +398,9 @@ img{
     position: relative;
     right: 360;
     overflow: hidden;
+  }
+  #social-media{
+    z-index: 100;
   }
 
 }
@@ -413,7 +450,10 @@ img{
     width: auto;
     font-size: 70%;
     top: 190;
-    right: 460;
+    right: 480;
+  }
+  #horizontal-list li{
+    margin-right: 0px;
   }
 
   #social-media{
@@ -520,6 +560,11 @@ img{
 @media only screen and (max-width: 490px){
   #navigation{
     display:none;
+  }
+  .arrow-container{
+    display: block;
+    margin-top: 90px;
+    bottom: 400px;
   }
   #blog-content h2{
     margin-left: -22%;

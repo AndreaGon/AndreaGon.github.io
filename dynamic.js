@@ -1,10 +1,12 @@
-
+$('#go-down').click(function(){
+	$(window).animate({
+		scrollTop: $('#porfolio').offset().top}, 'slow');
+});
 $(window).ready(function(){
   var fadeTime = 500;
   change2020 = function(){
-    for (i = 1; i < 5; i++){
+    for (i = 1; i < 6; i++){
       $("#list-2015-" + i).hide();
-      $("#list-2016-" + i).hide();
       $("#list-2017-" + i).hide();
       $("#list-2018-" + i).hide();
       $("#list-2019-" + i).hide();
@@ -14,9 +16,8 @@ $(window).ready(function(){
     fadeTime = 500;
   }
   change2019 = function(){
-    for (i = 1; i < 5; i++){
+    for (i = 1; i < 6; i++){
       $("#list-2015-" + i).hide();
-      $("#list-2016-" + i).hide();
       $("#list-2017-" + i).hide();
       $("#list-2018-" + i).hide();
       $("#list-2020-" + i).hide();
@@ -26,9 +27,8 @@ $(window).ready(function(){
     fadeTime = 500;
   }
   change2018 = function(){
-    for (i = 1; i < 5; i++){
+    for (i = 1; i < 6; i++){
       $("#list-2015-" + i).hide();
-      $("#list-2016-" + i).hide();
       $("#list-2017-" + i).hide();
       $("#list-2019-" + i).hide();
       $("#list-2020-" + i).hide();
@@ -38,9 +38,8 @@ $(window).ready(function(){
     fadeTime = 500;
   }
   change2017 = function(){
-    for (i = 1; i < 5; i++){
+    for (i = 1; i < 6; i++){
       $("#list-2015-" + i).hide();
-      $("#list-2016-" + i).hide();
       $("#list-2018-" + i).hide();
       $("#list-2019-" + i).hide();
       $("#list-2020-" + i).hide();
@@ -49,20 +48,8 @@ $(window).ready(function(){
     }
     fadeTime = 500;
   }
-  change2016 = function(){
-    for (i = 1; i < 5; i++){
-      $("#list-2015-" + i).hide();
-      $("#list-2017-" + i).hide();
-      $("#list-2018-" + i).hide();
-      $("#list-2019-" + i).hide();
-      $("#list-2020-" + i).hide();
-      $("#list-2016-" + i).fadeIn(fadeTime);
-      fadeTime += 50;
-    }
-    fadeTime = 50;
-  }
   change2015 = function(){
-    for (i = 1; i < 5; i++){
+    for (i = 1; i < 6; i++){
       $("#list-2016-" + i).hide();
       $("#list-2017-" + i).hide();
       $("#list-2018-" + i).hide();
@@ -87,9 +74,6 @@ $(window).ready(function(){
     $("#link-17").click(function(){
       change2017();
     });
-    $("#link-16").click(function(){
-      change2016();
-    });
     $("#link-15").click(function(){
       change2015();
     });
@@ -100,11 +84,14 @@ $(window).ready(function(){
       case "2019": change2019(); break;
       case "2018": change2018(); break;
       case "2017": change2017(); break;
-      case "2016": change2016(); break;
       case "2015": change2015(); break;
       default: break;
     }
   }
-  console.log($("#date-mobile").find(":selected").val());
+
+	$("#link-date a").click(function(){
+		$("#link-date a").removeClass("selected");
+		$(this).addClass("selected");
+	});
   changeProject();
 });

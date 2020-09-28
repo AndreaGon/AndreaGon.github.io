@@ -392,6 +392,36 @@ img{
 }
 
 /**For Responsive Design**/
+@media only screen and (min-width: 1965px){
+    #prof-pic{
+      width: 450px;
+      position: relative;
+      right: 100;
+      top: -100;
+      overflow: hidden;
+    }
+    #home-greet h1{
+      position: relative;
+      top: 20;
+      right: 200;
+    }
+
+    #horizontal-list{
+      position: relative;
+      top: 10;
+      right: 210;
+    }
+    #horizontal-list li{
+      margin-right: 0px;
+    }
+    #social-media{
+      z-index: 100;
+      position: relative;
+      left: 410;
+      top: 250;
+    }
+}
+
 @media only screen and (max-width: 1360px){
   #prof-pic{
     width: 450px;
@@ -399,6 +429,7 @@ img{
     right: 360;
     overflow: hidden;
   }
+
   #social-media{
     z-index: 100;
   }
